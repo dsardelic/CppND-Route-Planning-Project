@@ -58,10 +58,6 @@ int main(int argc, const char** argv) {
     std::cin >> start_x >> start_y;
     std::cout << "Enter destination location coordinates: ";
     std::cin >> end_x >> end_y;
-    std::cout << start_x << std::endl
-              << start_y << std::endl
-              << end_x << std::endl
-              << end_y << std::endl;
 
     // Build Model.
     RouteModel model{osm_data};
